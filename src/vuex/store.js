@@ -1,0 +1,18 @@
+import Vue from 'vue'
+import Vuex from 'vuex'
+import groups from './modules/groups'
+import quotes from './modules/quotes'
+import interval from './modules/interval'
+
+const debug = process.env.NODE_ENV !== 'production'
+Vue.use(Vuex)
+Vue.config.debug = debug
+
+export default new Vuex.Store({
+  modules: {
+    groups,
+    quotes,
+    interval
+  },
+  strict: debug
+})

@@ -1,12 +1,8 @@
 <template>
-  <div class="show-grid">
-    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-    <div class="row">
-      <div class="col-xs-12 col-md-8">个人中心</div>
-      <div class="col-xs-6 col-md-4">个人中心</div>
-    </div>
+  <div class="iframe">
+    <iframe class="iframe-frame" src="http://apptest.zsgjs.com/newappweb/trunk/zj_web/a/HeadLines/APPHeadQuery" frameborder="0"></iframe>
+  </div>
 </template>
-
 <script>
 export default {
 }

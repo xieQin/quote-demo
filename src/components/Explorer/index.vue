@@ -1,13 +1,14 @@
 <template>
-  <div class="show-grid">
-    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-    <div class="row">
-      <div class="col-xs-12 col-md-8">发现</div>
-      <div class="col-xs-6 col-md-4">发现</div>
-    </div>
+  <div class="iframe">
+    <iframe class="iframe-frame" src="http://freshwebdev.zsgjs.com/" frameborder="0"></iframe>
+  </div>
 </template>
 
 <script>
 export default {
 }
 </script>
+
+<style>
+</style>
+

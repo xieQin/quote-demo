@@ -43,7 +43,7 @@ export default {
 .wrap .router {
   position: absolute;
   top: 0;
-  bottom: 4em;
+  bottom: 4rem;
   left: 0;
   right: 0;
   overflow: auto;

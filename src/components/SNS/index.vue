@@ -1,6 +1,6 @@
 <template>
   <div class="iframe">
-    <iframe class="iframe-frame" src="http://snswebdev.zsgjs.com/?id=123" frameborder="0"></iframe>
+    <iframe class="iframe-frame" src="http://apptest.zsgjs.com/newappweb/trunk/weixin/" frameborder="0"></iframe>
   </div>
 </template>
 

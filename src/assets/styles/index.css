@@ -59,4 +59,5 @@ a, a:hover, a:focus {
 .iframe-frame {
   width: 100%;
   height: 100%;
+  overflow: auto;
 }

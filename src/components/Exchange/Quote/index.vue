@@ -64,6 +64,9 @@ export default {
         this.isTids = true
         this.getQuotes(decodeURIComponent(this.$route.query.tids))
       }
+    },
+    deactivate () {
+      console.log('quote deactivated')
     }
   }
 }

@@ -2,6 +2,10 @@
 
 > A Vue.js project
 
+## Online Demos
+
+ - [quote-demo](http://http://8.cherishhsieh.sinaapp.com)
+
 ## Build Setup
 
 ``` bash

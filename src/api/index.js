@@ -1,5 +1,4 @@
-import {GetGroupsApi} from './resources'
-import {GetQuotesApi} from './resources'
+import {GetGroupsApi, GetQuotesApi} from './resources'
 
 export default {
   getGroups: function (data) {
